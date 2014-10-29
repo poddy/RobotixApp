@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:background="#d3dce5" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/geoaware" />
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/heading4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Category of event: COMPUTER VISION" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="&quot;Create a vision-guided robot which can use onboard video feed to navigate an environment based on an overhead image as a map&quot;"
+        android:textStyle="italic" />
+
+    </LinearLayout>
+      
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    style="@style/EventFooter"
+    android:paddingTop="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="5dip" >
+
+    <ImageView
+        android:id="@+id/www"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:src="@drawable/www" />
+
+    <ImageView
+        android:id="@+id/pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:src="@drawable/pdf" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:src="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:src="@drawable/location" />
+    
+</LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:text="A fearsome maze with imposing walls. Innumerable ways to get lost. Tunnels that could take you closer to your goal or to your doom. An unenviable situation for any human being, let alone for a robot. But such is the challenge of Geo-Aware. ROBOTIX 2014 presents its Computer Vision event Geo-Aware which will put your path planning and navigation skills to the test. The only guide for your stranded robot is a static overhead map of the maze - a map your robot will have to understand and process and then use to find its way to the target points and out of the arena." />
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

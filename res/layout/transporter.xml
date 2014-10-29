@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" 
+    android:background="#d3dce5">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/transporter" />
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/heading4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Category of event: AUTONOMOUS ROBOTICS" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/heading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:text="&quot;Build an autonomous robot which can traverse a grid and place blocks in voids on the grid such that it optimises its path while completing this task&quot;"
+        android:textStyle="italic" />
+
+    </LinearLayout>
+      
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    style="@style/EventFooter"
+    android:paddingTop="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="5dip" >
+
+    <ImageView
+        android:id="@+id/www"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:src="@drawable/www" />
+
+    <ImageView
+        android:id="@+id/pdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:src="@drawable/pdf" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:src="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip"
+        android:src="@drawable/location" />
+    
+</LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:text="A city is under siege from a formidable enemy. The latest attack has destroyed many of the roads and bridges that connect it to the outside, by forming vital lines of communication and supplies. The materials to replace them are scattered all over the city. As lead engineers of the defences, you are charged with designing an autonomous robot that can navigate the grid network of the city, locating the areas of damage, and the means to repair them, and bringing the two together in the most efficient manner. The challenge that is embodied in ROBOTIX 2014’s autonomous event TRANSPORTER is steep and daunting, but the rewards are that much more fulfilling." />
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

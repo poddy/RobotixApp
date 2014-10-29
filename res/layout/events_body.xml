@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><in.robotix.robotixapp.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#d3dce5" >
+
+    <Button
+        android:id="@+id/event1"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/event1"
+        android:text="InspiralOn" />
+     
+
+    <Button
+        android:id="@+id/event2"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/event2"
+        android:text="Canyon Rush" />
+     
+
+    <Button
+        android:id="@+id/event3"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/event3"
+        android:text="Transporter" />
+
+    <Button
+        android:id="@+id/event4"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/event4"
+        android:text="Tremors" />
+ 
+
+    <Button
+        android:id="@+id/event5"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/event5"
+        android:text="Geo Aware" />
+ 
+
+    <Button
+        android:id="@+id/event6"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/event6"
+        android:text="Sudocode" />
+ 
+</in.robotix.robotixapp.DashboardLayout>

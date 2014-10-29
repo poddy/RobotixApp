@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.robotix.robotixapp"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:screenOrientation="portrait"
+    android:theme="@android:style/Theme.NoTitleBar"	>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="com.example.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.example.gcm" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".GcmIntentService" />
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EventsDesign"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.EVENTSHula" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InspiralOn"
+                  android:screenOrientation="portrait"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.INSPIRALON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CanyonRush"
+                  android:screenOrientation="portrait"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.CANYONRUSH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Transporter"
+                  android:screenOrientation="portrait"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.TRANSPORTER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tremors"
+                  android:screenOrientation="portrait"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.TREMORS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GeoAware"
+                  android:screenOrientation="portrait"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.GEOAWARE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SudoCode"
+                  android:screenOrientation="portrait"
+                  android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.SUDOCODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DashboardDesign"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.DBD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".Faq"
+             android:screenOrientation="portrait"
+             android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.FAQS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter></activity>
+            
+         <activity android:name=".PushNotifications"
+             android:screenOrientation="portrait"
+             android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.PUSHNOTIF" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter></activity>
+            <activity android:name=".ShowNotifications"
+             android:screenOrientation="portrait"
+             android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.NOTICEBOARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter></activity>
+            <activity android:name=".Map2"
+             android:screenOrientation="portrait"
+             android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.CAMPUSMAPNEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter></activity>
+            <activity android:name=".Map"
+             android:screenOrientation="portrait"
+             android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.CAMPUSMAP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter></activity>
+          <activity android:name=".AboutUs"
+              android:screenOrientation="portrait"
+              android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.ABOUTUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            </activity>
+        <activity android:name=".Contacts"
+            android:screenOrientation="portrait"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="in.robotix.robotixapp.NUMBERS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter></activity>
+        
+        <service android:name="com.parse.PushService" />
+<receiver android:name="com.parse.ParseBroadcastReceiver">
+  <intent-filter>
+    <action android:name="android.intent.action.BOOT_COMPLETED" />
+    <action android:name="android.intent.action.USER_PRESENT" />
+  </intent-filter>
+</receiver>
+        
+    </application>
+
+</manifest>

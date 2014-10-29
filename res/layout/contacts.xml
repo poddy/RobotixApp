@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1" >
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:background="#d3dce5"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+ 
+    <TextView
+            android:id="@+id/tv1"
+            style="@style/heading1"
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_height="wrap_content"
+            android:text="Any queries/suggestions ?" />
+    
+    <TextView
+            android:id="@+id/tv1"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Feel free to contact us:" />
+    
+    <TextView
+            android:id="@+id/tv1"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:textStyle="italic"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="*Tap on the number to call" />
+    
+    <TextView
+            android:id="@+id/tv1"
+            style="@style/heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="HELP DESK" />
+    <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Monika Pani" />
+      <TextView
+            android:id="@+id/hd1"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 956 464 2395" />
+      <TextView
+            android:id="@+id/hd2"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="monika@robotix.in" />
+     
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="EVENTS" />
+      
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="INSPIRALON" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Yogesh Poddar" />
+      <TextView
+            android:id="@+id/ev111"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 810 144 6798" />
+      <TextView
+            android:id="@+id/ev112"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="yogesh@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Anushka Gupta" />
+      <TextView
+            android:id="@+id/ev121"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 947 561 8213" />
+      <TextView
+            android:id="@+id/ev122"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="anushka@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="CANYON RUSH" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Deepak Agarwal" />
+      <TextView
+            android:id="@+id/ev211"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 890 064 0470" />
+      <TextView
+            android:id="@+id/ev212"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="deepak@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Payal Priyadarshini" />
+      <TextView
+            android:id="@+id/ev221"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 810 144 6795" />
+      <TextView
+            android:id="@+id/ev222"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="payal@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="TRANSPORTER" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Rahul Jhawar" />
+      <TextView
+            android:id="@+id/ev311"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 983 630 5633" />
+      <TextView
+            android:id="@+id/ev312"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="rahuljhawar@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Monika Pani" />
+      <TextView
+            android:id="@+id/ev321"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 956 464 2395" />
+      <TextView
+            android:id="@+id/ev322"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="monika@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="TREMORS" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Rahul Jhawar" />
+      <TextView
+            android:id="@+id/ev411"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 983 630 5633" />
+      <TextView
+            android:id="@+id/ev412"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="rahuljhawar@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="GEO AWARE" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Shushman Choudhury" />
+      <TextView
+            android:id="@+id/ev511"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 983 050 3030" />
+      <TextView
+            android:id="@+id/ev512"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="shushman@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="SUDOCODE" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Soumyadeep Mukherjee" />
+      <TextView
+            android:id="@+id/ev611"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 740 765 1462" />
+      <TextView
+            android:id="@+id/ev612"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="soumyadeep@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Mrinal Mohit" />
+      <TextView
+            android:id="@+id/ev621"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 800 162 0212" />
+      <TextView
+            android:id="@+id/ev622"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="mrinal@robotix.in" />
+      <TextView
+            android:id="@+id/tv1"
+            style="@style/heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="HOSPITALITY" />
+    <TextView
+            android:id="@+id/tv1"
+            style="@style/heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Shwetanshu Gupta" />
+      <TextView
+            android:id="@+id/hp1"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
+            android:text="Ph. +91 980 004 3264" />
+      <TextView
+            android:id="@+id/hp2"
+            style="@style/heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="35dp"
+            android:text="shwetanshu.gupta@ktj.in" />
+
+</LinearLayout>
+</ScrollView>
